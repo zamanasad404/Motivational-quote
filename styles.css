@@ -1,0 +1,101 @@
+/* Basic styling for the motivational quotes PWA */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #2196f3;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+#quote-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 80px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button#share-btn {
+  background: #25d366; /* WhatsApp green */
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+section#old-quotes-section {
+  margin-top: 1rem;
+}
+
+#old-quotes-list {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#old-quotes-list li {
+  background: #fff;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#ads,
+#merch {
+  background: #fff;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#ads {
+  min-height: 60px;
+}
+
+#merch a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #ff9800;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#merch a:hover {
+  opacity: 0.9;
+}
